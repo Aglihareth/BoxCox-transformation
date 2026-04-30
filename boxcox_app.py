@@ -1,20 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════╗
-║           TRANSFORMACIÓN BOX-COX  —  Herramienta Educativa      ║
-║  Desarrollado con Streamlit · Python · SciPy · Matplotlib        ║
-╚══════════════════════════════════════════════════════════════════╝
-
-Para ejecutar:
-    streamlit run boxcox_app.py
-
-Dependencias (requirements.txt):
-    streamlit>=1.32
-    numpy
-    pandas
-    scipy
-    matplotlib
-"""
-
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -607,14 +590,3 @@ with col_e2:
         mime="text/csv",
         use_container_width=True,
     )
-
-
-# ──────────────────────────────────────────────────────────────────
-#  PIE DE PÁGINA
-# ──────────────────────────────────────────────────────────────────
-st.divider()
-st.markdown("""
-<div style="text-align:center; color:#8aa0b8; font-size:0.82rem; padding:8px 0">
-  Transformación Box-Cox · Herramienta educativa · Python + Streamlit + SciPy
-</div>
-""", unsafe_allow_html=True)

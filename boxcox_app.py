@@ -37,7 +37,7 @@ st.markdown("""
     .main-title {
         font-family: 'IBM Plex Mono', monospace;
         font-size: 4.2rem;
-        font-weight: 600;
+        font-weight: 1200;
         color: #0f4c81;
         letter-spacing: -1px;
         margin-bottom: 0;

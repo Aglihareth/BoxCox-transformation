@@ -43,7 +43,7 @@ st.markdown("""
         margin-bottom: 0;
     }
     .main-subtitle {
-        font-size: 1rem;
+        font-size: 1rem !important;
         color: #5f7a99;
         margin-top: 0.2rem;
         font-weight: 300;
